@@ -1,0 +1,8 @@
+CRITICAL - 2022-02-14 14:20:46 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', '/home/sorotnus/...', 89, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(89): readfile('')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

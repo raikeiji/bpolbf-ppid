@@ -1,0 +1,25 @@
+CRITICAL - 2021-11-06 22:00:05 --> Undefined offset: 5
+#0 /home/sorotnus/public_html/floratama/app/Views/prosedur_investasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/sorotnus/...', 13, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('prosedur_invest...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(69): view('prosedur_invest...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Prosedur_investasi.php(15): App\Libraries\Init->no_slider('prosedur_invest...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_investasi->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_investasi))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-06 22:01:30 --> syntax error, unexpected ','
+#0 /home/sorotnus/public_html/floratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('prosedur_invest...')
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('prosedur_invest...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-06 22:01:45 --> Call to undefined method App\Controllers\Prosedur_investasi::get_prosedur()
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_investasi->index()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_investasi))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

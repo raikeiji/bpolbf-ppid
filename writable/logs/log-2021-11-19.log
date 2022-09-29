@@ -1,0 +1,474 @@
+CRITICAL - 2021-11-19 00:11:59 --> Undefined property: stdClass::$lokasi
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/detail_wisata.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 9, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('detail_wisata', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('detail_wisata', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_wisata.php(21): App\Libraries\Init->no_slider('detail_wisata', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-19 00:12:44 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-11-19 00:12:44 --> Column 'id' in where clause is ambiguous
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `b`.`kab...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.`kab...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.`kab...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `b`.`kab...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_wisata.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_wisata.php(19): App\Controllers\Detail_wisata->get_wisata()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-19 00:12:55 --> Column 'deleted' in where clause is ambiguous
+CRITICAL - 2021-11-19 00:12:55 --> Column 'deleted' in where clause is ambiguous
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `b`.`kab...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.`kab...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.`kab...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `b`.`kab...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_wisata.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_wisata.php(19): App\Controllers\Detail_wisata->get_wisata()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 00:25:30 --> Undefined property: stdClass::$id_kab
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/wisata.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 15, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('wisata', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('wisata', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Wisata.php(22): App\Libraries\Init->no_slider('wisata', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 00:46:17 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Wisata.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 47, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Wisata->get_bykab()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 00:46:19 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Wisata.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 47, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Wisata->get_bykab()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 01:00:51 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/sorotnus/public_html/pasarfloratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('wisata/get_byka...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('wisata/get_byka...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 01:23:00 --> Undefined variable: data
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/detail_wisata.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 13, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('detail_wisata', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('detail_wisata', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_wisata.php(21): App\Libraries\Init->no_slider('detail_wisata', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 01:24:13 --> Undefined variable: data
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/detail_wisata.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 24, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('detail_wisata', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('detail_wisata', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_wisata.php(21): App\Libraries\Init->no_slider('detail_wisata', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 01:33:14 --> syntax error, unexpected '$idb' (T_VARIABLE)
+#0 /home/sorotnus/public_html/pasarfloratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('detail_blog')
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('detail_blog')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 01:35:53 --> Call to undefined function App\Controllers\inval()
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Wisata->get_bykab()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-19 02:01:39 --> Undefined variable: menudashboard
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/admin/template/menu.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 39, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(282): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(15): App\Libraries\Init->generate_admin('admin/wisata', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 02:02:11 --> Invalid argument supplied for foreach()
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/admin/template/menu.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/sorotnus/...', 39, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(282): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(15): App\Libraries\Init->generate_admin('admin/wisata', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 02:02:32 --> Undefined variable: menudashboard
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/admin/template/menu.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 39, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(282): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(15): App\Libraries\Init->generate_admin('admin/wisata', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-19 19:27:53 --> Unknown column 'a.id_kategori' in 'field list'
+CRITICAL - 2021-11-19 19:27:53 --> Unknown column 'a.id_kategori' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Acara_pengembangan.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Acara.php(18): App\Models\Admin\Acara_pengembangan->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Acara->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Acara))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:37:49 --> Unknown column 'a.id' in 'field list'
+CRITICAL - 2021-11-19 19:37:49 --> Unknown column 'a.id' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:37:56 --> Unknown column 'a.id' in 'field list'
+CRITICAL - 2021-11-19 19:37:56 --> Unknown column 'a.id' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:38:35 --> Unknown column 'a.tanggal' in 'field list'
+CRITICAL - 2021-11-19 19:38:35 --> Unknown column 'a.tanggal' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:39:24 --> Unknown column 'a.info' in 'field list'
+CRITICAL - 2021-11-19 19:39:24 --> Unknown column 'a.info' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:39:39 --> Unknown column 'a.info' in 'field list'
+CRITICAL - 2021-11-19 19:39:39 --> Unknown column 'a.info' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:40:20 --> Unknown column 'b.konten' in 'field list'
+CRITICAL - 2021-11-19 19:40:20 --> Unknown column 'b.konten' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:40:36 --> Unknown column 'a.nama' in 'where clause'
+CRITICAL - 2021-11-19 19:40:36 --> Unknown column 'a.nama' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:41:20 --> Unknown column 'a.nama' in 'where clause'
+CRITICAL - 2021-11-19 19:41:20 --> Unknown column 'a.nama' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 19:41:39 --> Unknown column 'a.deskripsi' in 'where clause'
+CRITICAL - 2021-11-19 19:41:39 --> Unknown column 'a.deskripsi' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-19 19:41:56 --> Undefined property: stdClass::$id
+#0 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 34, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-19 19:43:00 --> syntax error, unexpected '$row' (T_VARIABLE)
+#0 /home/sorotnus/public_html/pasarfloratama/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/home/sorotnus/...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Admi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Admi...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Admi...')
+#4 /home/sorotnus/public_html/pasarfloratama/system/Config/Factories.php(155): class_exists('App\\Models\\Admi...')
+#5 /home/sorotnus/public_html/pasarfloratama/system/Config/Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Models\\Admi...')
+#6 /home/sorotnus/public_html/pasarfloratama/system/Common.php(904): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(8): model('App\\Models\\Admi...')
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(900): App\Controllers\Bajocontrol\Akademi->__construct()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-19 20:46:42 --> Undefined variable: category
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 67, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 20:53:30 --> Undefined variable: short
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 70, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-19 20:54:18 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-19 20:54:18 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('UPDATE `acara` ...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `acara` ...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `acara` ...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `acara` ...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(79): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->save_forum()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-19 21:26:11 --> Undefined property: stdClass::$tanggal
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/akademi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 44, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('akademi', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('akademi', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(20): App\Libraries\Init->no_slider('akademi', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-19 21:27:47 --> Unknown column 'a.tanggal' in 'field list'
+CRITICAL - 2021-11-19 21:27:47 --> Unknown column 'a.tanggal' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Akademi.php(23): App\Models\Datatables->datatables(Array, 'acara a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(19): App\Models\Admin\Akademi->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-19 21:41:58 --> Unknown column 'a.id_kab' in 'where clause'
+CRITICAL - 2021-11-19 21:41:58 --> Unknown column 'a.id_kab' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `b`.`kab...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.`kab...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.`kab...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `b`.`kab...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(18): App\Controllers\Akademi->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-19 21:42:54 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-19 21:42:54 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->get_data()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-19 21:48:43 --> Undefined variable: data
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 121, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->get_data()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 21:49:12 --> Undefined property: stdClass::$id
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 112, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->get_data()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 21:49:44 --> Undefined property: stdClass::$id_kab
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 115, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->get_data()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 21:52:35 --> Undefined variable: title
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 113, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->get_data()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 21:53:31 --> syntax error, unexpected '=', expecting ')'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('Bajocontrol/aka...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Bajocontrol/aka...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-19 21:53:50 --> Undefined property: stdClass::$kabupaten
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 114, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->get_data()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-19 21:56:09 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-19 21:56:09 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('UPDATE `acara` ...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `acara` ...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `acara` ...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `acara` ...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Akademi.php(65): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Akademi->save_forum()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Akademi))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-19 22:04:37 --> Undefined variable: kabupaten
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/akademi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 13, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('akademi', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('akademi', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(20): App\Libraries\Init->no_slider('akademi', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-19 22:25:42 --> Undefined variable: kabupaten
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/bpolbf.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 14, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('bpolbf', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('bpolbf', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolbf.php(20): App\Libraries\Init->no_slider('bpolbf', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bpolbf->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpolbf))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-19 22:28:07 --> Unknown column 'bpolbf' in 'where clause'
+CRITICAL - 2021-11-19 22:28:07 --> Unknown column 'bpolbf' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `b`.`kab...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.`kab...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.`kab...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `b`.`kab...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(19): App\Controllers\Akademi->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,422 @@
+CRITICAL - 2021-11-14 00:24:20 --> Invalid file: admin/Wisata.php
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Wisata.ph...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/Wisata', Array, true)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(252): view('admin/Wisata', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(14): App\Libraries\Init->generate_admin('admin/Wisata', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->index()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-14 00:49:39 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-14 00:50:00 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-14 00:50:35 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-14 00:54:00 --> Undefined property: stdClass::$created
+#0 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Wisata.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 33, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(19): App\Models\Admin\Wisata->get_list()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-14 00:57:47 --> Unknown column 'judul' in 'field list'
+CRITICAL - 2021-11-14 00:57:47 --> Unknown column 'judul' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `de...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(73): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-14 00:58:13 --> Unknown column 'judul' in 'field list'
+CRITICAL - 2021-11-14 00:58:13 --> Unknown column 'judul' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `de...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(73): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-14 00:58:36 --> Undefined variable: nama
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 66, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-14 00:59:11 --> Undefined variable: deskripsi
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 69, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-14 01:01:38 --> Unknown column 'a.nama_kategori' in 'field list'
+CRITICAL - 2021-11-14 01:01:38 --> Unknown column 'a.nama_kategori' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Wisata.php(24): App\Models\Datatables->datatables(Array, 'destinasi_wisat...', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(19): App\Models\Admin\Wisata->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-14 01:01:53 --> Unknown column 'b.kabupaten' in 'field list'
+CRITICAL - 2021-11-14 01:01:53 --> Unknown column 'b.kabupaten' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Wisata.php(24): App\Models\Datatables->datatables(Array, 'destinasi_wisat...', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(19): App\Models\Admin\Wisata->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-14 01:02:37 --> Unknown column 'c.kategori' in 'on clause'
+CRITICAL - 2021-11-14 01:02:37 --> Unknown column 'c.kategori' in 'on clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Wisata.php(23): App\Models\Datatables->datatables(Array, 'destinasi_wisat...', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(19): App\Models\Admin\Wisata->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-14 01:03:01 --> Undefined property: stdClass::$kategori
+#0 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Wisata.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 30, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(19): App\Models\Admin\Wisata->get_list()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->list_forum()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-14 01:03:58 --> Undefined property: stdClass::$kabupaten
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 107, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->get_data()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-14 01:30:37 --> Call to a member function getName() on null
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(76): App\Libraries\Init->upload(Object(CodeIgniter\HTTP\Files\UploadedFile), 'image', 13, 'destinasi_wisat...', 'insert')
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-14 01:34:31 --> Call to undefined method App\Libraries\Init::make_thumb()
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(76): App\Libraries\Init->upload('gambar', 'image', 15, 'destinasi_wisat...', 'insert')
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-14 01:35:22 --> Undefined property: stdClass::$tgl
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/index.php(462): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 462, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(53): view('index', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(31): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 01:40:13 --> Unknown column 'table' in 'field list'
+CRITICAL - 2021-11-14 01:40:13 --> Unknown column 'table' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ar...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(413): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(76): App\Libraries\Init->upload(Array, 'image', 16, 'destinasi_wisat...', 'insert')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 01:46:43 --> Unknown column 'table' in 'field list'
+CRITICAL - 2021-11-14 01:46:43 --> Unknown column 'table' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `ar...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(413): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Wisata.php(76): App\Libraries\Init->upload(Array, 'image', 17, 'destinasi_wisat...', 'insert')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Wisata->save_forum()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-14 02:01:32 --> syntax error, unexpected '}'
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(53): view('index', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(31): App\Libraries\Init->generate('index', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-14 07:56:27 --> Undefined variable: magazine
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/index.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 175, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(53): view('index', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(31): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 07:58:59 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 07:58:59 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Wisata.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Wisata.php(18): App\Controllers\Wisata->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 08:02:19 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 08:02:19 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Wisata.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Wisata.php(18): App\Controllers\Wisata->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Wisata->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-14 08:26:05 --> Call to undefined method App\Controllers\Wisata::get_wisata()
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Wisata->index()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wisata))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-14 08:53:03 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 08:53:03 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolpf.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolpf.php(18): App\Controllers\Bpolpf->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bpolpf->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpolpf))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 09:08:15 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 09:08:15 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(18): App\Controllers\Akademi->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-14 09:26:07 --> Call to undefined method App\Controllers\Detail_event::get_wisata()
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_event->index()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_event))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-14 09:26:34 --> Undefined property: stdClass::$nama
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/detail_event.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 6, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('detail_event', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('detail_event', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_event.php(21): App\Libraries\Init->no_slider('detail_event', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_event->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_event))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 09:27:21 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 09:27:21 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(18): App\Controllers\Akademi->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-14 09:34:28 --> Undefined property: mysqli::$gambar
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/akademi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 37, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('akademi', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('akademi', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Akademi.php(20): App\Libraries\Init->no_slider('akademi', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Akademi->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akademi))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 09:38:25 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 09:38:25 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolpf.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolpf.php(18): App\Controllers\Bpolpf->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bpolpf->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpolpf))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 13:24:11 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 13:24:11 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolpf.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolpf.php(18): App\Controllers\Bpolpf->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bpolpf->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpolpf))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-14 13:33:55 --> Undefined variable: vvalue
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/bpolbf.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 45, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('bpolbf', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('bpolbf', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolbf.php(20): App\Libraries\Init->no_slider('bpolbf', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bpolbf->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpolbf))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 13:42:46 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 13:42:46 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Forum.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Forum.php(18): App\Controllers\Forum->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Forum->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forum))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 14:03:46 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 14:03:46 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Laporan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Laporan.php(18): App\Controllers\Laporan->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Laporan->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 14:08:53 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 14:08:53 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Kontak.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Kontak.php(18): App\Controllers\Kontak->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Kontak->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 14:12:33 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 14:12:33 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Kontak.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Kontak.php(19): App\Controllers\Kontak->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Kontak->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 14:22:09 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 14:22:09 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Jajaran.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Jajaran.php(18): App\Controllers\Jajaran->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Jajaran->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jajaran))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-14 14:28:18 --> Unknown column 'a.id_kategori' in 'where clause'
+CRITICAL - 2021-11-14 14:28:18 --> Unknown column 'a.id_kategori' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(18): App\Controllers\Program->get_berita()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

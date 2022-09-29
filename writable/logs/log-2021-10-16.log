@@ -1,0 +1,136 @@
+CRITICAL - 2021-10-16 00:55:22 --> Undefined variable: a
+#0 /home/daymarts/public_html/company/app/Views/continue_shopping.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/daymarts/...', 50, Array)
+#1 /home/daymarts/public_html/company/system/View/View.php(230): include('/home/daymarts/...')
+#2 /home/daymarts/public_html/company/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/daymarts/public_html/company/system/Common.php(1271): CodeIgniter\View\View->render('continue_shoppi...', Array, true)
+#4 /home/daymarts/public_html/company/app/Libraries/Init.php(119): view('continue_shoppi...', Array)
+#5 /home/daymarts/public_html/company/app/Controllers/Continue_shopping.php(16): App\Libraries\Init->generate('continue_shoppi...', Array)
+#6 /home/daymarts/public_html/company/system/CodeIgniter.php(928): App\Controllers\Continue_shopping->index()
+#7 /home/daymarts/public_html/company/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Continue_shopping))
+#8 /home/daymarts/public_html/company/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/daymarts/public_html/company/index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-16 01:00:13 --> syntax error, unexpected end of file
+#0 /home/daymarts/public_html/company/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/daymarts/public_html/company/system/Common.php(1271): CodeIgniter\View\View->render('continue_shoppi...', Array, true)
+#2 /home/daymarts/public_html/company/app/Libraries/Init.php(119): view('continue_shoppi...', Array)
+#3 /home/daymarts/public_html/company/app/Controllers/Continue_shopping.php(16): App\Libraries\Init->generate('continue_shoppi...', Array)
+#4 /home/daymarts/public_html/company/system/CodeIgniter.php(928): App\Controllers\Continue_shopping->index()
+#5 /home/daymarts/public_html/company/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Continue_shopping))
+#6 /home/daymarts/public_html/company/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/daymarts/public_html/company/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-16 01:09:00 --> Undefined variable: id_sl
+#0 /home/daymarts/public_html/company/app/Views/continue_shopping.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/daymarts/...', 50, Array)
+#1 /home/daymarts/public_html/company/system/View/View.php(230): include('/home/daymarts/...')
+#2 /home/daymarts/public_html/company/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/daymarts/public_html/company/system/Common.php(1271): CodeIgniter\View\View->render('continue_shoppi...', Array, true)
+#4 /home/daymarts/public_html/company/app/Libraries/Init.php(119): view('continue_shoppi...', Array)
+#5 /home/daymarts/public_html/company/app/Controllers/Continue_shopping.php(16): App\Libraries\Init->generate('continue_shoppi...', Array)
+#6 /home/daymarts/public_html/company/system/CodeIgniter.php(928): App\Controllers\Continue_shopping->index()
+#7 /home/daymarts/public_html/company/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Continue_shopping))
+#8 /home/daymarts/public_html/company/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/daymarts/public_html/company/index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-16 01:10:41 --> Undefined property: stdClass::$jumlah
+#0 /home/daymarts/public_html/company/app/Views/continue_shopping.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/daymarts/...', 51, Array)
+#1 /home/daymarts/public_html/company/system/View/View.php(230): include('/home/daymarts/...')
+#2 /home/daymarts/public_html/company/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/daymarts/public_html/company/system/Common.php(1271): CodeIgniter\View\View->render('continue_shoppi...', Array, true)
+#4 /home/daymarts/public_html/company/app/Libraries/Init.php(119): view('continue_shoppi...', Array)
+#5 /home/daymarts/public_html/company/app/Controllers/Continue_shopping.php(16): App\Libraries\Init->generate('continue_shoppi...', Array)
+#6 /home/daymarts/public_html/company/system/CodeIgniter.php(928): App\Controllers\Continue_shopping->index()
+#7 /home/daymarts/public_html/company/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Continue_shopping))
+#8 /home/daymarts/public_html/company/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/daymarts/public_html/company/index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-16 22:38:09 --> Table 'inor7146_bajo./home/inor7146/public_html/floratama/writable/session' doesn't exist
+CRITICAL - 2021-10-16 22:38:09 --> Table 'inor7146_bajo./home/inor7146/public_html/floratama/writable/session' doesn't exist
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `data`\nF...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 /home/inor7146/public_html/floratama/system/Session/Handlers/DatabaseHandler.php(155): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('c550aa782966ce7...')
+#6 /home/inor7146/public_html/floratama/system/Session/Session.php(1001): session_start()
+#7 /home/inor7146/public_html/floratama/system/Session/Session.php(249): CodeIgniter\Session\Session->startSession()
+#8 /home/inor7146/public_html/floratama/system/Config/Services.php(736): CodeIgniter\Session\Session->start()
+#9 /home/inor7146/public_html/floratama/system/Config/BaseService.php(263): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 /home/inor7146/public_html/floratama/system/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/inor7146/public_html/floratama/system/Config/Services.php(721): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 /home/inor7146/public_html/floratama/system/Config/BaseService.php(263): CodeIgniter\Config\Services::session()
+#13 /home/inor7146/public_html/floratama/app/Controllers/Home.php(10): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 /home/inor7146/public_html/floratama/system/CodeIgniter.php(900): App\Controllers\Home->__construct()
+#15 /home/inor7146/public_html/floratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#16 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#18 {main}
+ERROR - 2021-10-16 22:51:44 --> Table 'inor7146_bajo.temp_cart' doesn't exist
+CRITICAL - 2021-10-16 22:51:44 --> Table 'inor7146_bajo.temp_cart' doesn't exist
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(108): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/inor7146/public_html/floratama/app/Controllers/Home.php(25): App\Libraries\Init->generate('index', Array)
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-16 22:53:47 --> Table 'inor7146_bajo.setting' doesn't exist
+CRITICAL - 2021-10-16 22:53:47 --> Table 'inor7146_bajo.setting' doesn't exist
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(93): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/inor7146/public_html/floratama/app/Libraries/Init.php(104): App\Libraries\Init->getSetting('app_name')
+#6 /home/inor7146/public_html/floratama/app/Controllers/Home.php(25): App\Libraries\Init->generate('index', Array)
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-16 23:01:31 --> Table 'inor7146_bajo.setting' doesn't exist
+CRITICAL - 2021-10-16 23:01:31 --> Table 'inor7146_bajo.setting' doesn't exist
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(93): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/inor7146/public_html/floratama/app/Libraries/Init.php(104): App\Libraries\Init->getSetting('app_name')
+#6 /home/inor7146/public_html/floratama/app/Controllers/Home.php(25): App\Libraries\Init->generate('index', Array)
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-16 23:06:39 --> Table 'inor7146_bajo.setting' doesn't exist
+CRITICAL - 2021-10-16 23:06:39 --> Table 'inor7146_bajo.setting' doesn't exist
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(93): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/inor7146/public_html/floratama/app/Libraries/Init.php(104): App\Libraries\Init->getSetting('app_name')
+#6 /home/inor7146/public_html/floratama/app/Controllers/Home.php(25): App\Libraries\Init->generate('index', Array)
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-16 23:06:42 --> Table 'inor7146_bajo.setting' doesn't exist
+CRITICAL - 2021-10-16 23:06:42 --> Table 'inor7146_bajo.setting' doesn't exist
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(93): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/inor7146/public_html/floratama/app/Libraries/Init.php(104): App\Libraries\Init->getSetting('app_name')
+#6 /home/inor7146/public_html/floratama/app/Controllers/Home.php(25): App\Libraries\Init->generate('index', Array)
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

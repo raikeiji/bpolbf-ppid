@@ -1,0 +1,14 @@
+CRITICAL - 2022-06-11 22:52:12 --> Undefined variable: email
+#0 /home/sorotnus/public_html/ppid/app/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 38, Array)
+#1 /home/sorotnus/public_html/ppid/system/CodeIgniter.php(928): App\Controllers\Home->sve()
+#2 /home/sorotnus/public_html/ppid/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/ppid/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-11 23:18:46 --> Undefined variable: email
+#0 /home/sorotnus/public_html/ppid/app/Controllers/Home.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 106, Array)
+#1 /home/sorotnus/public_html/ppid/system/CodeIgniter.php(928): App\Controllers\Home->sve()
+#2 /home/sorotnus/public_html/ppid/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/ppid/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

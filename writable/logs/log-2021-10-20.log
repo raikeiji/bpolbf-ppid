@@ -1,0 +1,18 @@
+CRITICAL - 2021-10-20 23:22:00 --> Invalid characters passed for attempted conversion, these have been ignored
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Invalid charact...', '/home/sorotnus/...', 236, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Encript.php(236): hexdec('lu')
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(32): App\Libraries\Encript->url_decode('luang-investasi...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 23:22:31 --> Invalid characters passed for attempted conversion, these have been ignored
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Invalid charact...', '/home/sorotnus/...', 236, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Encript.php(236): hexdec('lu')
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(32): App\Libraries\Encript->url_decode('luang-investasi...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

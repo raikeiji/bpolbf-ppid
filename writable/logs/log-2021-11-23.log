@@ -1,0 +1,428 @@
+CRITICAL - 2021-11-23 00:18:29 --> Undefined property: stdClass::$ulasan_singkat
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/laporan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 31, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('laporan', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('laporan', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Laporan.php(21): App\Libraries\Init->no_slider('laporan', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Laporan->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-23 00:40:23 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-23 00:40:23 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('DELETE FROM `ac...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ac...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ac...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ac...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Bpolbf.php(134): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Bpolbf->delete()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Bpolbf))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-23 00:40:25 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-23 00:40:25 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('DELETE FROM `ac...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ac...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ac...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ac...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Bpolbf.php(134): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Bpolbf->delete()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Bpolbf))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-23 00:40:28 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-23 00:40:28 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('DELETE FROM `ac...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ac...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ac...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ac...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Bpolbf.php(134): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Bpolbf->delete()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Bpolbf))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 00:49:51 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-23 00:51:23 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-23 00:55:35 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-23 00:55:35 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('DELETE FROM `ac...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ac...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ac...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ac...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Bpolbf.php(134): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Bpolbf->delete()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Bpolbf))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-23 00:55:36 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-23 00:55:36 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('DELETE FROM `ac...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ac...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ac...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ac...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Bpolbf.php(134): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Bpolbf->delete()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Bpolbf))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 00:55:42 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', '/home/sorotnus/...', 602, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(602): strpos(Object(CodeIgniter\Database\MySQLi\Builder), ',')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(269): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\Datatables))
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(970): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\Datatables), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(Object(App\Models\Datatables))
+#5 /home/sorotnus/public_html/pasarfloratama/system/Model.php(761): CodeIgniter\Model->builder()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Magazine.php(26): CodeIgniter\Model->__get('init')
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Magazine.php(18): App\Models\Admin\Magazine->get_list()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-23 00:55:50 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', '/home/sorotnus/...', 602, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(602): strpos(Object(CodeIgniter\Database\MySQLi\Builder), ',')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(269): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\Datatables))
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(970): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\Datatables), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(Object(App\Models\Datatables))
+#5 /home/sorotnus/public_html/pasarfloratama/system/Model.php(761): CodeIgniter\Model->builder()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Magazine.php(26): CodeIgniter\Model->__get('init')
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Magazine.php(18): App\Models\Admin\Magazine->get_list()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-23 00:56:04 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-23 00:56:04 --> Unknown column 'id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('DELETE FROM `ac...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ac...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ac...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ac...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Bpolbf.php(134): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Bpolbf->delete()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Bpolbf))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 00:56:43 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', '/home/sorotnus/...', 602, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(602): strpos(Object(CodeIgniter\Database\MySQLi\Builder), ',')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(269): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\Datatables))
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(970): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\Datatables), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(Object(App\Models\Datatables))
+#5 /home/sorotnus/public_html/pasarfloratama/system/Model.php(761): CodeIgniter\Model->builder()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Magazine.php(26): CodeIgniter\Model->__get('init')
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Magazine.php(18): App\Models\Admin\Magazine->get_list()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-23 00:56:45 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', '/home/sorotnus/...', 602, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(602): strpos(Object(CodeIgniter\Database\MySQLi\Builder), ',')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(269): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\Datatables))
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(970): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\Datatables), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(Object(App\Models\Datatables))
+#5 /home/sorotnus/public_html/pasarfloratama/system/Model.php(761): CodeIgniter\Model->builder()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Magazine.php(26): CodeIgniter\Model->__get('init')
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Magazine.php(18): App\Models\Admin\Magazine->get_list()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-23 00:57:11 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', '/home/sorotnus/...', 602, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(602): strpos(Object(CodeIgniter\Database\MySQLi\Builder), ',')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(269): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\Datatables))
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(970): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\Datatables), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(Object(App\Models\Datatables))
+#5 /home/sorotnus/public_html/pasarfloratama/system/Model.php(761): CodeIgniter\Model->builder()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Magazine.php(27): CodeIgniter\Model->__get('init')
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Magazine.php(18): App\Models\Admin\Magazine->get_list()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-23 00:57:51 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', '/home/sorotnus/...', 602, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(602): strpos(Object(CodeIgniter\Database\MySQLi\Builder), ',')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(269): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\Datatables))
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(970): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\Datatables), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(Object(App\Models\Datatables))
+#5 /home/sorotnus/public_html/pasarfloratama/system/Model.php(761): CodeIgniter\Model->builder()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Magazine.php(27): CodeIgniter\Model->__get('init')
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Magazine.php(18): App\Models\Admin\Magazine->get_list()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Magazine->list_Magazine()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Magazine))
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-23 08:24:55 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:24:56 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:25:02 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:25:02 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:25:04 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:25:09 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:27:34 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:27:35 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:27:36 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:28:10 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:28:10 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:28:15 --> readfile(uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(upload...', '/home/sorotnus/...', 85, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(85): readfile('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:28:34 --> filesize(): stat failed for uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 93, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(93): filesize('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:28:34 --> filesize(): stat failed for uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 93, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(93): filesize('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:28:38 --> filesize(): stat failed for uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 93, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(93): filesize('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:28:38 --> filesize(): stat failed for uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 93, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(93): filesize('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:29:36 --> filesize(): stat failed for uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 93, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(93): filesize('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:29:36 --> filesize(): stat failed for uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 93, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(93): filesize('uploads/2021/11...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:30:35 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', '/home/sorotnus/...', 89, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(89): readfile('')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:35:23 --> filesize(): stat failed for public/https://www.pasarfloratama.wikisata.com/public/uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 88, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(88): filesize('public/https://...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 08:36:09 --> filesize(): stat failed for public/https://www.pasarfloratama.wikisata.com/public/uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 88, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(88): filesize('public/https://...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 20:10:27 --> filesize(): stat failed for public/https://www.pasarfloratama.wikisata.com/public/images/event/magbajo4.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 88, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(88): filesize('public/https://...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 20:10:34 --> filesize(): stat failed for public/https://www.pasarfloratama.wikisata.com/public/images/event/magbajo4.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 88, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(88): filesize('public/https://...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 21:27:00 --> filesize(): stat failed for public/https://www.pasarfloratama.wikisata.com/public/uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 88, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(88): filesize('public/https://...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 21:37:24 --> filesize(): stat failed for public/https://www.pasarfloratama.wikisata.com/public/uploads/2021/11/1637605660_b3ec180565200a3fe05a.jpg
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', '/home/sorotnus/...', 88, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(88): filesize('public/https://...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 21:49:12 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', '/home/sorotnus/...', 89, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(89): readfile('')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 21:49:22 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', '/home/sorotnus/...', 89, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(89): readfile('')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-23 21:50:22 --> Only variables should be passed by reference
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/index.php(175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables ...', '/home/sorotnus/...', 175, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(54): view('index', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(31): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-23 21:50:47 --> Array to string conversion
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/index.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/sorotnus/...', 188, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(54): view('index', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(31): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-23 21:52:41 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', '/home/sorotnus/...', 89, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(89): readfile('')
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->download()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

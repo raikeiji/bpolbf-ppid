@@ -1,0 +1,141 @@
+ERROR - 2021-10-22 00:58:25 --> Unknown column 'b.parent_title' in 'field list'
+CRITICAL - 2021-10-22 00:58:25 --> Unknown column 'b.parent_title' in 'field list'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.*, `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('SQ5351505431525...', 'peluang-investa...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-22 00:58:38 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 00:58:45 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 16:25:52 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 16:25:53 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 16:26:00 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 16:26:13 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-22 17:53:05 --> Unknown column 'b.parent_title' in 'field list'
+CRITICAL - 2021-10-22 17:53:05 --> Unknown column 'b.parent_title' in 'field list'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.*, `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('153135505431525...', 'peluang-investa...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-22 21:59:45 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 21:59:53 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 22:49:04 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 22:49:05 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 23:00:52 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 23:01:02 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-22 23:01:20 --> Undefined property: stdClass::$parent_title
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 78, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(94): App\Libraries\Init->get_menu(Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

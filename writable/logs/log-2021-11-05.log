@@ -1,0 +1,113 @@
+CRITICAL - 2021-11-05 00:38:15 --> syntax error, unexpected '}'
+#0 /home/sorotnus/public_html/floratama/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/home/sorotnus/...')
+#1 /home/sorotnus/public_html/floratama/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\I...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\I...')
+#3 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/ResController.php(80): spl_autoload_call('App\\Libraries\\I...')
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(901): App\Controllers\Bajocontrol\ResController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-05 00:50:35 --> Unknown column 'judul' in 'field list'
+CRITICAL - 2021-11-05 00:50:35 --> Unknown column 'judul' in 'field list'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `de...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(62): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-05 00:51:03 --> Unknown column 'title' in 'field list'
+CRITICAL - 2021-11-05 00:51:03 --> Unknown column 'title' in 'field list'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `de...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(62): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-05 00:51:44 --> Call to a member function getName() on null
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(65): App\Libraries\Init->upload('gambar', 'image', 18)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 00:53:46 --> Array to string conversion
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/sorotnus/...', 317, Array)
+#1 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(65): App\Libraries\Init->upload('gambar', 'image', 20)
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-05 01:07:47 --> Illegal string offset 'status'
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/sorotnus/...', 67, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 01:08:07 --> Trying to get property 'status' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 67, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 01:08:20 --> Illegal string offset 'status'
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/sorotnus/...', 67, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 01:10:06 --> Trying to get property 'status' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 68, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 01:10:27 --> Cannot use object of type stdClass as array
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-05 01:10:42 --> Cannot use object of type stdClass as array
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-05 01:11:39 --> Undefined offset: 0
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/sorotnus/...', 68, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 01:17:29 --> syntax error, unexpected ''jenis'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /home/sorotnus/public_html/floratama/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/home/sorotnus/...')
+#1 /home/sorotnus/public_html/floratama/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\I...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\I...')
+#3 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/ResController.php(80): spl_autoload_call('App\\Libraries\\I...')
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(901): App\Controllers\Bajocontrol\ResController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 01:22:00 --> Undefined variable: str
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Fasilitas_dan_kemudahan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 45, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan->save_forum()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Fasilitas_dan_kemudahan))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

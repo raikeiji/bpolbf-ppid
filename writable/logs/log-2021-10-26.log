@@ -1,0 +1,107 @@
+CRITICAL - 2021-10-26 08:10:13 --> Trying to get property 'tipe' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 41, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('index.html')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 08:10:51 --> Trying to get property 'tipe' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 41, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('index.html')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 08:11:39 --> Undefined offset: 0
+#0 /home/sorotnus/public_html/floratama/app/Views/pages.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/sorotnus/...', 12, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('pages', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(130): view('pages', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(91): App\Libraries\Init->no_slider('pages', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('index.html')
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-26 23:41:16 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 73, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 23:43:19 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 73, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 23:43:39 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 73, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 23:45:16 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 73, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 23:45:48 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 73, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 23:46:05 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 73, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-26 23:47:07 --> Table 'sorotnus_floratama.scontent' doesn't exist
+CRITICAL - 2021-10-26 23:47:07 --> Table 'sorotnus_floratama.scontent' doesn't exist
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-26 23:47:22 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 74, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 23:47:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-26 23:47:44 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 74, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-26 23:48:53 --> Trying to get property 'id_content' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 73, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('peluang-investa...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

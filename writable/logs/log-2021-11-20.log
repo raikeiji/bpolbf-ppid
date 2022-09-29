@@ -1,0 +1,51 @@
+ERROR - 2021-11-20 00:05:04 --> Column 'deleted' in where clause is ambiguous
+CRITICAL - 2021-11-20 00:05:04 --> Column 'deleted' in where clause is ambiguous
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Pasar.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Pasar.php(20): App\Controllers\Pasar->get_umkm_kat()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Pasar->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasar))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-20 00:20:44 --> Unknown column 'b.id' in 'where clause'
+CRITICAL - 2021-11-20 00:20:44 --> Unknown column 'b.id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.*, `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Pasar.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Pasar->get_bykat()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasar))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-20 00:21:02 --> Unknown column 'b.id' in 'where clause'
+CRITICAL - 2021-11-20 00:21:02 --> Unknown column 'b.id' in 'where clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.*, `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Pasar.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Pasar->get_bykat()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasar))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-20 08:33:25 --> Unknown column 'a.id_kab' in 'on clause'
+CRITICAL - 2021-11-20 08:33:25 --> Unknown column 'a.id_kab' in 'on clause'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Umkm.php(23): App\Models\Datatables->datatables(Array, 'umkm a', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Umkm.php(18): App\Models\Admin\Umkm->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Umkm->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Umkm))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

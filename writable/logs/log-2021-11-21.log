@@ -1,0 +1,325 @@
+CRITICAL - 2021-11-21 12:19:35 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Pasar->list_forum()
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Pasar))
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-21 13:52:38 --> Undefined property: stdClass::$foto
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/jajaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 18, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('jajaran', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('jajaran', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Jajaran.php(21): App\Libraries\Init->no_slider('jajaran', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Jajaran->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jajaran))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 13:52:58 --> Undefined property: stdClass::$image
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/jajaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 18, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('jajaran', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('jajaran', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Jajaran.php(21): App\Libraries\Init->no_slider('jajaran', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Jajaran->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jajaran))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 13:53:15 --> Undefined property: stdClass::$motto
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/jajaran.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 23, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('jajaran', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('jajaran', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Jajaran.php(21): App\Libraries\Init->no_slider('jajaran', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Jajaran->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jajaran))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 13:53:38 --> Undefined property: stdClass::$gambaro
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/jajaran.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 62, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('jajaran', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('jajaran', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Jajaran.php(21): App\Libraries\Init->no_slider('jajaran', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Jajaran->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jajaran))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 14:06:39 --> Undefined variable: direktorat
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Jajaran.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 92, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Jajaran->save_user()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Jajaran))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-21 14:10:42 --> Undefined index: data
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Jajaran.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/sorotnus/...', 66, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Jajaran->save_user()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Jajaran))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-21 14:40:44 --> Undefined variable: category
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/admin/program.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 21, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(252): view('admin/program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(13): App\Libraries\Init->generate_admin('admin/program')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-21 14:41:28 --> Unknown column 'b.nama_kategori' in 'field list'
+CRITICAL - 2021-11-21 14:41:28 --> Unknown column 'b.nama_kategori' in 'field list'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id_...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Models/Datatables.php(69): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Program.php(23): App\Models\Datatables->datatables(Array, 'program a', '', Array, Array, Array)
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(17): App\Models\Admin\Program->get_list()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->list_forum()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-21 14:48:36 --> Undefined property: stdClass::$gambar
+#0 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Program.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 30, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(17): App\Models\Admin\Program->get_list()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->list_forum()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-21 14:52:41 --> syntax error, unexpected '$res' (T_VARIABLE), expecting ')'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/home/sorotnus/...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Admi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Admi...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Admi...')
+#4 /home/sorotnus/public_html/pasarfloratama/system/Config/Factories.php(155): class_exists('App\\Models\\Admi...')
+#5 /home/sorotnus/public_html/pasarfloratama/system/Config/Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Models\\Admi...')
+#6 /home/sorotnus/public_html/pasarfloratama/system/Common.php(904): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(8): model('App\\Models\\Admi...')
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(900): App\Controllers\Bajocontrol\Program->__construct()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-21 14:53:17 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', '/home/sorotnus/...', 602, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(602): strpos(Object(CodeIgniter\Database\MySQLi\Builder), ',')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(269): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\Datatables))
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(970): CodeIgniter\Database\BaseBuilder->__construct(Object(App\Models\Datatables), Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(Object(App\Models\Datatables))
+#5 /home/sorotnus/public_html/pasarfloratama/system/Model.php(761): CodeIgniter\Model->builder()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Models/Admin/Program.php(26): CodeIgniter\Model->__get('init')
+#7 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(17): App\Models\Admin\Program->get_list()
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->list_forum()
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#10 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-21 14:54:09 --> Class 'App\Models\Admin\Init' not found
+#0 /home/sorotnus/public_html/pasarfloratama/system/Config/Factories.php(120): App\Models\Admin\Program->__construct(NULL)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(904): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(8): model('App\\Models\\Admi...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(900): App\Controllers\Bajocontrol\Program->__construct()
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-21 15:03:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-21 15:04:03 --> Table 'sorotnus_pasarfloratama.Program' doesn't exist
+CRITICAL - 2021-11-21 15:04:03 --> Table 'sorotnus_pasarfloratama.Program' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->get_data()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-21 15:04:54 --> Undefined property: stdClass::$id_kategori
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 88, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->get_data()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-21 15:09:42 --> Call to a member function getName() on null
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(75): App\Libraries\Init->upload('gambar', 'image', 0, 'program', 'insert')
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-21 15:10:12 --> Call to a member function getName() on null
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Program.php(75): App\Libraries\Init->upload('gambar', 'image', 0, 'program', 'insert')
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Program->save_forum()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Program))
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-21 15:21:26 --> Undefined variable: jajaran
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/program.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 12, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(20): App\Libraries\Init->no_slider('program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 15:22:29 --> Undefined variable: jajaran
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/program.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 12, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(20): App\Libraries\Init->no_slider('program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 15:22:52 --> Undefined variable: program
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/program.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 12, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(20): App\Libraries\Init->no_slider('program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 15:23:41 --> Undefined variable: program
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/program.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 12, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(20): App\Libraries\Init->no_slider('program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 15:25:02 --> Undefined variable: program
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/program.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 12, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(20): App\Libraries\Init->no_slider('program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 15:26:10 --> Undefined variable: program
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/program.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 12, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(20): App\Libraries\Init->no_slider('program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 16:07:41 --> Trying to access array offset on value of type null
+#0 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_blog.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/sorotnus/...', 26, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_blog.php(19): App\Controllers\Detail_blog->get_berita()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_blog->index()
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_blog))
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-21 16:11:17 --> Undefined property: stdClass::$tgl_event
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/detail_program.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 17, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('detail_program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('detail_program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_program.php(21): App\Libraries\Init->no_slider('detail_program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 16:11:23 --> Undefined property: stdClass::$tgl_event
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/detail_program.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 17, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('detail_program', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('detail_program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Detail_program.php(21): App\Libraries\Init->no_slider('detail_program', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Detail_program->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_program))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-21 16:15:54 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(21): App\Libraries\Init->no_slider('program', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-21 16:16:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countResultAll()
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include()
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(21): App\Libraries\Init->no_slider('program', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-21 16:17:26 --> Cannot redeclare App\Controllers\Program::get_program()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-21 16:20:55 --> syntax error, unexpected '9' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('program', Array, true)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('program', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Program.php(21): App\Libraries\Init->no_slider('program', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Program->index()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Program))
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-21 23:58:58 --> Undefined property: stdClass::$ulasan_singkat
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/laporan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 31, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('laporan', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('laporan', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Laporan.php(21): App\Libraries\Init->no_slider('laporan', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Laporan->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,258 @@
+ERROR - 2021-11-02 00:13:22 --> Unknown column 'd.id_page' in 'where clause'
+CRITICAL - 2021-11-02 00:13:22 --> Unknown column 'd.id_page' in 'where clause'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Peluang_investasi.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Peluang_investasi.php(10): App\Controllers\Peluang_investasi->get_investasi()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peluang_investasi->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peluang_investasi))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-02 00:14:36 --> Unknown column 'd.id_page' in 'where clause'
+CRITICAL - 2021-11-02 00:14:36 --> Unknown column 'd.id_page' in 'where clause'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Peluang_investasi.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Peluang_investasi.php(10): App\Controllers\Peluang_investasi->get_investasi()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peluang_investasi->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peluang_investasi))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 00:50:31 --> Undefined property: stdClass::$doc_name
+#0 /home/sorotnus/public_html/floratama/app/Views/peluang_pendanaan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 13, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('peluang_pendana...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(53): view('peluang_pendana...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Peluang_pendanaan.php(13): App\Libraries\Init->no_slider('peluang_pendana...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peluang_pendanaan->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peluang_pendanaan))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 00:50:52 --> Undefined property: stdClass::$nama
+#0 /home/sorotnus/public_html/floratama/app/Views/peluang_pendanaan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 19, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('peluang_pendana...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(53): view('peluang_pendana...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Peluang_pendanaan.php(13): App\Libraries\Init->no_slider('peluang_pendana...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peluang_pendanaan->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peluang_pendanaan))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 00:51:07 --> Undefined property: stdClass::$nilai_investasi
+#0 /home/sorotnus/public_html/floratama/app/Views/peluang_pendanaan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 35, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('peluang_pendana...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(53): view('peluang_pendana...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Peluang_pendanaan.php(13): App\Libraries\Init->no_slider('peluang_pendana...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peluang_pendanaan->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peluang_pendanaan))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 01:13:59 --> Call to undefined method App\Controllers\Peluang_pendanaan::get_berita()
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peluang_pendanaan->index()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peluang_pendanaan))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-02 02:17:59 --> Undefined variable: slider
+#0 /home/sorotnus/public_html/floratama/app/Views/template/media.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 9, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('template/media', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(103): view('template/media', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Login.php(13): App\Libraries\Init->nologin('login', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Login->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 02:18:40 --> Class 'App\Controllers\Admin\ResController' not found
+#0 /home/sorotnus/public_html/floratama/system/Router/Router.php(566): include_once()
+#1 /home/sorotnus/public_html/floratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('Bajocontrol/log...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Bajocontrol/log...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-02 07:21:19 --> Class 'App\Controllers\Admin\ResController' not found
+#0 /home/sorotnus/public_html/floratama/system/Router/Router.php(566): include_once()
+#1 /home/sorotnus/public_html/floratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('Bajocontrol/log...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Bajocontrol/log...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-02 07:22:00 --> Class 'App\Controllers\Admin\ResController' not found
+#0 /home/sorotnus/public_html/floratama/system/Router/Router.php(566): include_once()
+#1 /home/sorotnus/public_html/floratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('Bajocontrol/das...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Bajocontrol/das...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-02 07:58:02 --> Undefined property: stdClass::$kabupaten
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Umkm.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 98, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Umkm->get_data()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Umkm))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 07:58:08 --> Undefined property: stdClass::$kabupaten
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Umkm.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 98, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Umkm->get_data()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Umkm))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 07:58:21 --> Undefined property: stdClass::$kabupaten
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Umkm.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 98, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Umkm->get_data()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Umkm))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 07:58:27 --> Undefined variable: data
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Divisi_investasi.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 116, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Divisi_investasi->get_data()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Divisi_investasi))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 08:17:03 --> Object of class App\Libraries\Init could not be converted to string
+#0 /home/sorotnus/public_html/floratama/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(901): App\Controllers\ResController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 08:17:49 --> Undefined variable: validation
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 41, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->subscribe()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 08:21:33 --> Undefined variable: validation
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 41, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->subscribe()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 08:21:49 --> Undefined variable: validation
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 41, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->subscribe()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 08:22:08 --> Undefined variable: validation
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 41, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->subscribe()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 08:22:37 --> max-length is not a valid rule.
+#0 /home/sorotnus/public_html/floratama/system/Validation/Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max-length')
+#1 /home/sorotnus/public_html/floratama/system/Validation/Validation.php(159): CodeIgniter\Validation\Validation->processRules('widget-subscrib...', 'widget-subscrib...', 'rinaroot@gmail....', Array, Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(43): CodeIgniter\Validation\Validation->run()
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->subscribe()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-02 08:31:21 --> Undefined variable: valud
+#0 /home/sorotnus/public_html/floratama/app/Views/index.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 348, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('index', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(26): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 08:31:34 --> Undefined variable: valu
+#0 /home/sorotnus/public_html/floratama/app/Views/index.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 348, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('index', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(26): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 08:31:42 --> Undefined property: stdClass::$judul
+#0 /home/sorotnus/public_html/floratama/app/Views/index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 350, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('index', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(26): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-02 08:33:19 --> Unknown column 'b.id' in 'where clause'
+CRITICAL - 2021-11-02 08:33:19 --> Unknown column 'b.id' in 'where clause'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(24): App\Controllers\Home->get_berita()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-02 08:59:34 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-11-02 08:59:34 --> Illegal parameter data types varchar and row for operation '='
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(64): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(48): App\Libraries\Init->get_attr()
+#6 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(147): App\Libraries\Init->no_slider('pages', Array)
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('beranda.html')
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-02 08:59:39 --> Undefined property: stdClass::$nama
+#0 /home/sorotnus/public_html/floratama/app/Views/index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 350, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('index', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Beranda.php(26): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Beranda->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-02 09:05:03 --> Undefined variable: data
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Sebaran_investasi.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 116, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Sebaran_investasi->get_data()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Sebaran_investasi))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

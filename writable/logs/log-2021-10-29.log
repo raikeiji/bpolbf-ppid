@@ -1,0 +1,51 @@
+CRITICAL - 2021-10-29 00:15:04 --> syntax error, unexpected '' '' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('prosedur_invest...', Array, true)
+#2 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(50): view('prosedur_invest...', Array)
+#3 /home/sorotnus/public_html/floratama/app/Controllers/Prosedur_investasi.php(14): App\Libraries\Init->no_slider('prosedur_invest...', Array)
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_investasi->index()
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_investasi))
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-29 00:25:14 --> syntax error, unexpected ''pendukung'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /home/sorotnus/public_html/floratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('prosedur_invest...')
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('prosedur_invest...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 00:26:10 --> syntax error, unexpected ''pendukung'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /home/sorotnus/public_html/floratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('prosedur_invest...')
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('prosedur_invest...')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-29 01:04:14 --> Call to private method App\Libraries\Init::getSetting() from context 'App\Controllers\Beranda'
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Beranda->index()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-29 01:41:02 --> Cannot redeclare App\Controllers\Home::subscribe()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-29 01:42:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->subscribe()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-10-29 01:44:11 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-10-29 01:44:11 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `su...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->subscribe()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

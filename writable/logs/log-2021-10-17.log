@@ -1,0 +1,228 @@
+CRITICAL - 2021-10-17 09:17:26 --> Invalid file: Pelatihan_pengembangan.php
+#0 /home/inor7146/public_html/floratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pelatihan_penge...')
+#1 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('Pelatihan_penge...', Array, true)
+#2 /home/inor7146/public_html/floratama/app/Libraries/Init.php(114): view('Pelatihan_penge...', Array)
+#3 /home/inor7146/public_html/floratama/app/Controllers/Pelatihan_pengembangan.php(10): App\Libraries\Init->generate('Pelatihan_penge...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Pelatihan_pengembangan->index()
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan_pengembangan))
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 09:18:41 --> Invalid file: Pelatihan_pengembangan.php
+#0 /home/inor7146/public_html/floratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pelatihan_penge...')
+#1 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('Pelatihan_penge...', Array, true)
+#2 /home/inor7146/public_html/floratama/app/Libraries/Init.php(114): view('Pelatihan_penge...', Array)
+#3 /home/inor7146/public_html/floratama/app/Controllers/Pelatihan_pengembangan.php(10): App\Libraries\Init->generate('Pelatihan_penge...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Pelatihan_pengembangan->index()
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan_pengembangan))
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 09:18:50 --> Invalid file: Pelatihan_pengembangan.php
+#0 /home/inor7146/public_html/floratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pelatihan_penge...')
+#1 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('Pelatihan_penge...', Array, true)
+#2 /home/inor7146/public_html/floratama/app/Libraries/Init.php(114): view('Pelatihan_penge...', Array)
+#3 /home/inor7146/public_html/floratama/app/Controllers/Pelatihan_pengembangan.php(10): App\Libraries\Init->generate('Pelatihan_penge...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Pelatihan_pengembangan->index()
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan_pengembangan))
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 09:44:44 --> Invalid file: Pelatihan_pengembangan.php
+#0 /home/inor7146/public_html/floratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pelatihan_penge...')
+#1 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('Pelatihan_penge...', Array, true)
+#2 /home/inor7146/public_html/floratama/app/Libraries/Init.php(114): view('Pelatihan_penge...', Array)
+#3 /home/inor7146/public_html/floratama/app/Controllers/Pelatihan_pengembangan.php(10): App\Libraries\Init->generate('Pelatihan_penge...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Pelatihan_pengembangan->index()
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan_pengembangan))
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 09:45:04 --> Invalid file: Pelatihan_pengembangan.php
+#0 /home/inor7146/public_html/floratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Pelatihan_penge...')
+#1 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('Pelatihan_penge...', Array, true)
+#2 /home/inor7146/public_html/floratama/app/Libraries/Init.php(114): view('Pelatihan_penge...', Array)
+#3 /home/inor7146/public_html/floratama/app/Controllers/Pelatihan_pengembangan.php(10): App\Libraries\Init->generate('Pelatihan_penge...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Pelatihan_pengembangan->index()
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatihan_pengembangan))
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 10:42:44 --> unlink(/home/inor7146/public_html/floratama/writable/debugbar/debugbar_1634438766.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/in...', '/home/inor7146/...', 78, Array)
+#1 /home/inor7146/public_html/floratama/system/Debug/Toolbar/Collectors/History.php(78): unlink('/home/inor7146/...')
+#2 /home/inor7146/public_html/floratama/system/Debug/Toolbar.php(480): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1634442164, 20)
+#3 /home/inor7146/public_html/floratama/system/Debug/Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/inor7146/public_html/floratama/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/inor7146/public_html/floratama/system/Events/Events.php(166): call_user_func(Object(Closure))
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-17 10:44:44 --> Invalid file: Sekilas_labuanbajo.php
+#0 /home/inor7146/public_html/floratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Sekilas_labuanb...')
+#1 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('Sekilas_labuanb...', Array, true)
+#2 /home/inor7146/public_html/floratama/app/Libraries/Init.php(114): view('Sekilas_labuanb...', Array)
+#3 /home/inor7146/public_html/floratama/app/Controllers/Sekilas_labuanbajo.php(10): App\Libraries\Init->generate('Sekilas_labuanb...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Sekilas_labuanbajo->index()
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekilas_labuanbajo))
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 12:57:18 --> syntax error, unexpected ';', expecting ']'
+#0 /home/inor7146/public_html/floratama/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/home/inor7146/...')
+#1 /home/inor7146/public_html/floratama/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\I...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\I...')
+#3 /home/inor7146/public_html/floratama/app/Controllers/ResController.php(87): spl_autoload_call('App\\Libraries\\I...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(901): App\Controllers\ResController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 13:02:52 --> Undefined index: child
+#0 /home/inor7146/public_html/floratama/app/Views/template/menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/inor7146/...', 2, Array)
+#1 /home/inor7146/public_html/floratama/system/View/View.php(230): include('/home/inor7146/...')
+#2 /home/inor7146/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('template/menu', Array, true)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(77): view('template/menu', Array)
+#5 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-17 13:03:24 --> Array to string conversion
+#0 /home/inor7146/public_html/floratama/app/Libraries/Init.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/inor7146/...', 45, Array)
+#1 /home/inor7146/public_html/floratama/app/Libraries/Init.php(77): App\Libraries\Init->menu()
+#2 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#3 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-17 13:08:37 --> Undefined variable: menu
+#0 /home/inor7146/public_html/floratama/app/Views/template/menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/inor7146/...', 2, Array)
+#1 /home/inor7146/public_html/floratama/system/View/View.php(230): include('/home/inor7146/...')
+#2 /home/inor7146/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('template/menu', Array, true)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(76): view('template/menu')
+#5 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-17 13:09:03 --> Undefined variable: child
+#0 /home/inor7146/public_html/floratama/app/Libraries/Init.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/inor7146/...', 45, Array)
+#1 /home/inor7146/public_html/floratama/app/Libraries/Init.php(76): App\Libraries\Init->menu()
+#2 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#3 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-17 13:12:44 --> Unknown column 'a.menu_id' in 'where clause'
+CRITICAL - 2021-10-17 13:12:44 --> Unknown column 'a.menu_id' in 'where clause'
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `id_page...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_page...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_page...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id_page...', Array, false)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/inor7146/public_html/floratama/app/Libraries/Init.php(76): App\Libraries\Init->menu()
+#6 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#9 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-10-17 13:12:56 --> Unknown column 'a.pages_id' in 'where clause'
+CRITICAL - 2021-10-17 13:12:56 --> Unknown column 'a.pages_id' in 'where clause'
+#0 /home/inor7146/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `id_page...')
+#1 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_page...')
+#2 /home/inor7146/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_page...')
+#3 /home/inor7146/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `id_page...', Array, false)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/inor7146/public_html/floratama/app/Libraries/Init.php(76): App\Libraries\Init->menu()
+#6 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#9 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-10-17 13:19:13 --> syntax error, unexpected '?>', expecting ')'
+#0 /home/inor7146/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('template/menu', Array, true)
+#2 /home/inor7146/public_html/floratama/app/Libraries/Init.php(76): view('template/menu', Array)
+#3 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-17 13:19:30 --> Undefined variable: value
+#0 /home/inor7146/public_html/floratama/app/Views/template/menu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/inor7146/...', 46, Array)
+#1 /home/inor7146/public_html/floratama/system/View/View.php(230): include('/home/inor7146/...')
+#2 /home/inor7146/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('template/menu', Array, true)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(76): view('template/menu', Array)
+#5 /home/inor7146/public_html/floratama/app/Controllers/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Prosedur_pendanaan->index()
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prosedur_pendanaan))
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-17 16:01:34 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('1', 'Peluang_Investa...')
+#1 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-17 16:02:20 --> Call to undefined method App\Controllers\Home::generate()
+#0 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('1', 'Peluang_Investa...')
+#1 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-17 16:02:34 --> Argument 2 passed to view() must be of the type array, object given, called in /home/inor7146/public_html/floratama/app/Libraries/Init.php on line 77
+#0 /home/inor7146/public_html/floratama/app/Libraries/Init.php(77): view('pages', Object(stdClass))
+#1 /home/inor7146/public_html/floratama/app/Controllers/Home.php(38): App\Libraries\Init->generate('pages', Object(stdClass))
+#2 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('1', 'Peluang_Investa...')
+#3 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-17 16:13:32 --> Undefined variable: data
+#0 /home/inor7146/public_html/floratama/app/Views/template/slider.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/inor7146/...', 28, Array)
+#1 /home/inor7146/public_html/floratama/system/View/View.php(230): include('/home/inor7146/...')
+#2 /home/inor7146/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('template/slider', Array, true)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(77): view('template/slider')
+#5 /home/inor7146/public_html/floratama/app/Controllers/Home.php(38): App\Libraries\Init->generate('pages', Array)
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('8', 'Prosedur_Pendan...')
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-17 16:14:33 --> Cannot use object of type stdClass as array
+#0 /home/inor7146/public_html/floratama/system/View/View.php(230): include()
+#1 /home/inor7146/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('pages', Array, true)
+#3 /home/inor7146/public_html/floratama/app/Libraries/Init.php(78): view('pages', Array)
+#4 /home/inor7146/public_html/floratama/app/Controllers/Home.php(38): App\Libraries\Init->generate('pages', Array)
+#5 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('8', 'Prosedur_Pendan...')
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-17 16:19:02 --> Undefined variable: slider
+#0 /home/inor7146/public_html/floratama/app/Views/template/media.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/inor7146/...', 9, Array)
+#1 /home/inor7146/public_html/floratama/system/View/View.php(230): include('/home/inor7146/...')
+#2 /home/inor7146/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/inor7146/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('template/media', Array, true)
+#4 /home/inor7146/public_html/floratama/app/Libraries/Init.php(99): view('template/media', Array)
+#5 /home/inor7146/public_html/floratama/app/Controllers/Home.php(38): App\Libraries\Init->no_slider('pages', Array)
+#6 /home/inor7146/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('1', 'Peluang_Investa...')
+#7 /home/inor7146/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/inor7146/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/inor7146/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

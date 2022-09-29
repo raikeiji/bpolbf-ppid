@@ -1,0 +1,571 @@
+CRITICAL - 2021-11-03 00:10:36 --> syntax error, unexpected '=', expecting ']'
+#0 /home/sorotnus/public_html/floratama/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('susunan_tim')
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle('susunan_tim')
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 00:10:59 --> Undefined variable: ir
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Susunan_tim.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 29, Array)
+#1 /home/sorotnus/public_html/floratama/app/Controllers/Susunan_tim.php(18): App\Controllers\Susunan_tim->get_susunan()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Susunan_tim->index()
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Susunan_tim))
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-03 00:11:49 --> Undefined property: stdClass::$name
+#0 /home/sorotnus/public_html/floratama/app/Views/susunan_tim.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 20, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('susunan_tim', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(54): view('susunan_tim', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Susunan_tim.php(23): App\Libraries\Init->no_slider('susunan_tim', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Susunan_tim->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Susunan_tim))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 00:12:19 --> Trying to get property 'nama' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Views/susunan_tim.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 159, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('susunan_tim', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(54): view('susunan_tim', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Susunan_tim.php(23): App\Libraries\Init->no_slider('susunan_tim', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Susunan_tim->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Susunan_tim))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-03 00:44:03 --> Unknown column 'b.id' in 'where clause'
+CRITICAL - 2021-11-03 00:44:03 --> Unknown column 'b.id' in 'where clause'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Peta_sebaran.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Peta_sebaran.php(18): App\Controllers\Peta_sebaran->get_berita()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peta_sebaran->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peta_sebaran))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 00:44:20 --> Undefined property: stdClass::$judul
+#0 /home/sorotnus/public_html/floratama/app/Views/peta_sebaran.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 26, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('peta_sebaran', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(54): view('peta_sebaran', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Peta_sebaran.php(20): App\Libraries\Init->no_slider('peta_sebaran', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Peta_sebaran->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peta_sebaran))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 18:44:59 --> Undefined property: App\Controllers\Bajocontrol\Peluang_investasi::$uri
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Peluang_investasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 13, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 18:45:13 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegment()
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 18:46:11 --> Undefined property: App\Controllers\Bajocontrol\Peluang_investasi::$uri
+#0 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Peluang_investasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 13, Array)
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 19:02:31 --> Object of class stdClass could not be converted to string
+#0 /home/sorotnus/public_html/floratama/system/View/View.php(230): include()
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#3 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(228): view('admin/template/...', Array)
+#4 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Peluang_investasi.php(15): App\Libraries\Init->generate_admin('admin/peluang_i...', Array)
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-03 19:02:43 --> Undefined property: stdClass::$menu_id
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 20, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(228): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Peluang_investasi.php(15): App\Libraries\Init->generate_admin('admin/peluang_i...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 19:04:27 --> Trying to get property 'id_menu' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 28, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(228): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Peluang_investasi.php(15): App\Libraries\Init->generate_admin('admin/peluang_i...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 19:04:45 --> Undefined index: id_menu
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/sorotnus/...', 28, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(228): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Peluang_investasi.php(15): App\Libraries\Init->generate_admin('admin/peluang_i...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 19:07:23 --> Array to string conversion
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/sorotnus/...', 32, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(228): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Peluang_investasi.php(15): App\Libraries\Init->generate_admin('admin/peluang_i...', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Peluang_investasi->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Peluang_investasi))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 19:14:24 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:14:29 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:15:20 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:15:39 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:15:51 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:16:06 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:16:45 --> Undefined variable: pendukung
+#0 /home/sorotnus/public_html/floratama/app/Views/prosedur_pendanaan.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 102, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('prosedur_pendan...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('prosedur_pendan...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Prosedur_pendanaan->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Prosedur_pendanaan))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 19:16:51 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:16:58 --> Trying to get property 'parent_id' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 260, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(221): App\Libraries\Init->get_parent('dashboard')
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Dashboard.php(14): App\Libraries\Init->generate_admin('admin/welcome_m...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Dashboard->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Dashboard))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:17:29 --> Trying to get property 'parent_id' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 260, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(221): App\Libraries\Init->get_parent('dashboard')
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Dashboard.php(14): App\Libraries\Init->generate_admin('admin/welcome_m...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Dashboard->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Dashboard))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:18:02 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 19:19:35 --> Trying to get property 'parent_id' of non-object
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/sorotnus/...', 260, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(221): App\Libraries\Init->get_parent('dashboard')
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Dashboard.php(14): App\Libraries\Init->generate_admin('admin/welcome_m...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Dashboard->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Dashboard))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:30:12 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:30:22 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:33:11 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:34:19 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:35:05 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:38:28 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:40:11 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:41:04 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:41:26 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:42:28 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:46:18 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:46:39 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:48:00 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(18): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:49:00 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(19): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:49:31 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(19): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:51:05 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(19): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 20:56:20 --> Invalid argument supplied for foreach()
+#0 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/sorotnus/...', 16, Array)
+#1 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(58): App\Models\Datatables->_get_datatables_query(Array, 'regulasi', '', Array, Array, Array)
+#2 /home/sorotnus/public_html/floratama/app/Models/Admin/Kebijakan.php(23): App\Models\Datatables->datatables(Array, 'regulasi', '', Array, Array, Array)
+#3 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Kebijakan.php(19): App\Models\Admin\Kebijakan->get_list()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Kebijakan->list_forum()
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Kebijakan))
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 20:56:38 --> Invalid argument supplied for foreach()
+#0 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/sorotnus/...', 16, Array)
+#1 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(58): App\Models\Datatables->_get_datatables_query(Array, 'regulasi', '', Array, Array, Array)
+#2 /home/sorotnus/public_html/floratama/app/Models/Admin/Kebijakan.php(23): App\Models\Datatables->datatables(Array, 'regulasi', '', Array, Array, Array)
+#3 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Kebijakan.php(19): App\Models\Admin\Kebijakan->get_list()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Kebijakan->list_forum()
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Kebijakan))
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-03 20:57:13 --> Unknown column 'a.id' in 'field list'
+CRITICAL - 2021-11-03 20:57:13 --> Unknown column 'a.id' in 'field list'
+#0 /home/sorotnus/public_html/floratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `a`.`id`...')
+#1 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id`...')
+#2 /home/sorotnus/public_html/floratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id`...')
+#3 /home/sorotnus/public_html/floratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id`...', Array, false)
+#4 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/floratama/app/Models/Admin/Kebijakan.php(23): App\Models\Datatables->datatables(Array, 'regulasi', Array, Array, Array, Array)
+#6 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Kebijakan.php(19): App\Models\Admin\Kebijakan->get_list()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Kebijakan->list_forum()
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Kebijakan))
+#9 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-03 20:57:41 --> Invalid argument supplied for foreach()
+#0 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/sorotnus/...', 16, Array)
+#1 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(58): App\Models\Datatables->_get_datatables_query(Array, 'regulasi', '', Array, Array, Array)
+#2 /home/sorotnus/public_html/floratama/app/Models/Admin/Kebijakan.php(23): App\Models\Datatables->datatables(Array, 'regulasi', '', Array, Array, Array)
+#3 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Kebijakan.php(19): App\Models\Admin\Kebijakan->get_list()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Kebijakan->list_forum()
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Kebijakan))
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 20:59:35 --> Invalid argument supplied for foreach()
+#0 /home/sorotnus/public_html/floratama/app/Models/Datatables.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/sorotnus/...', 84, Array)
+#1 /home/sorotnus/public_html/floratama/app/Models/Admin/Kebijakan.php(41): App\Models\Datatables->count_all(Array, 'regulasi', '', Array)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Kebijakan.php(19): App\Models\Admin\Kebijakan->get_list()
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Kebijakan->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Kebijakan))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 21:03:19 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/floratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/floratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Regulasi.php(19): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 22:09:18 --> Undefined variable: pendukung
+#0 /home/sorotnus/public_html/floratama/app/Views/prosedur_pendanaan.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 102, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('prosedur_pendan...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('prosedur_pendan...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Prosedur_pendanaan.php(10): App\Libraries\Init->generate('prosedur_pendan...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Prosedur_pendanaan->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Prosedur_pendanaan))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 22:49:08 --> Undefined property: stdClass::$nama
+#0 /home/sorotnus/public_html/floratama/app/Views/index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 350, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('index', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Beranda.php(26): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Beranda->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 22:49:29 --> Undefined property: stdClass::$nama
+#0 /home/sorotnus/public_html/floratama/app/Views/index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 350, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('index', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(38): view('index', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Beranda.php(26): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Beranda->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 22:50:52 --> Call to undefined function App\Controllers\bsae_url()
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Beranda->index()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 22:51:08 -->  route cannot be found while reverse-routing.
+#0 /home/sorotnus/public_html/floratama/system/HTTP/RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/sorotnus/public_html/floratama/system/Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Beranda.php(17): redirect('https://www.flo...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Beranda->index()
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 22:54:43 --> Undefined variable: href
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 65, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(228): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Dashboard.php(14): App\Libraries\Init->generate_admin('admin/welcome_m...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Dashboard->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Dashboard))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 22:56:50 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Faq->list_forum()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Faq))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 22:56:59 --> Call to a member function get_list() on null
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Faq->list_forum()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Faq))
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 23:09:17 --> Undefined variable: url
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 49, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(228): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Data_statistik.php(14): App\Libraries\Init->generate_admin('admin/statistik', Array)
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Data_statistik->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Data_statistik))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 23:52:05 --> Undefined property: CodeIgniter\View\View::$request
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 71, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(229): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Dashboard.php(14): App\Libraries\Init->generate_admin('admin/welcome_m...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Dashboard->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Dashboard))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-03 23:53:00 --> Undefined property: CodeIgniter\View\View::$request
+#0 /home/sorotnus/public_html/floratama/app/Views/admin/template/menu.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 71, Array)
+#1 /home/sorotnus/public_html/floratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/floratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/floratama/system/Common.php(1271): CodeIgniter\View\View->render('admin/template/...', Array, true)
+#4 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(230): view('admin/template/...', Array)
+#5 /home/sorotnus/public_html/floratama/app/Controllers/Bajocontrol/Dashboard.php(14): App\Libraries\Init->generate_admin('admin/welcome_m...')
+#6 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Dashboard->index()
+#7 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Dashboard))
+#8 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

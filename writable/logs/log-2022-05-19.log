@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-19 17:04:50 --> Undefined index: web_lang
+#0 /home/sorotnus/public_html/ppids/app/Views/template/head.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/sorotnus/...', 29, Array)
+#1 /home/sorotnus/public_html/ppids/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/ppids/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/ppids/system/Common.php(1271): CodeIgniter\View\View->render('template/head', Array, true)
+#4 /home/sorotnus/public_html/ppids/app/Libraries/Init.php(52): view('template/head', Array)
+#5 /home/sorotnus/public_html/ppids/app/Controllers/Home.php(31): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/ppids/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/ppids/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/ppids/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/ppids/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

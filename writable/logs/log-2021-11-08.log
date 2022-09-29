@@ -1,0 +1,236 @@
+ERROR - 2021-11-08 17:45:16 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:16 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:45:16 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:16 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:45:16 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:16 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:45:17 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:17 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:45:19 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:19 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:45:20 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:20 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:45:20 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:20 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:45:21 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+CRITICAL - 2021-11-08 17:45:21 --> Table 'sorotnus_pasarfloratama.settings' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `value`\n...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `value`\n...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `value`\n...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(175): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(18): App\Libraries\Init->getSetting('title')
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-08 17:46:38 --> Table 'sorotnus_pasarfloratama.ci_sessions' doesn't exist
+CRITICAL - 2021-11-08 17:46:38 --> Table 'sorotnus_pasarfloratama.ci_sessions' doesn't exist
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT `data`\nF...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/system/Session/Handlers/DatabaseHandler.php(155): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('1f178fdfb26a46f...')
+#6 /home/sorotnus/public_html/pasarfloratama/system/Session/Session.php(1001): session_start()
+#7 /home/sorotnus/public_html/pasarfloratama/system/Session/Session.php(249): CodeIgniter\Session\Session->startSession()
+#8 /home/sorotnus/public_html/pasarfloratama/system/Config/Services.php(736): CodeIgniter\Session\Session->start()
+#9 /home/sorotnus/public_html/pasarfloratama/system/Config/BaseService.php(263): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 /home/sorotnus/public_html/pasarfloratama/system/Config/BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/sorotnus/public_html/pasarfloratama/system/Config/Services.php(721): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 /home/sorotnus/public_html/pasarfloratama/system/Config/BaseService.php(263): CodeIgniter\Config\Services::session()
+#13 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(10): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(900): App\Controllers\Home->__construct()
+#15 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#16 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#18 {main}
+ERROR - 2021-11-08 17:55:20 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2021-11-08 17:55:20 --> Illegal parameter data types varchar and row for operation '='
+#0 /home/sorotnus/public_html/pasarfloratama/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sorotnus/public_html/pasarfloratama/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(63): App\Libraries\Init->get_attr()
+#6 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(148): App\Libraries\Init->no_slider('pages', Array)
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('beranda.html')
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-08 18:20:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 18:26:38 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-08 18:34:45 --> You must set the database table to be used with your query.
+#0 /home/sorotnus/public_html/pasarfloratama/system/Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /home/sorotnus/public_html/pasarfloratama/system/Model.php(798): CodeIgniter\Model->builder()
+#2 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bajocontrol/Regulasi.php(19): CodeIgniter\Model->__call('get_list', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bajocontrol\Regulasi->list_forum()
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bajocontrol\Regulasi))
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-08 21:48:13 --> Undefined variable: head
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/template/media.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 8, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('template/media', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(56): view('template/media', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Home.php(27): App\Libraries\Init->generate('index', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-08 21:59:00 --> syntax error, unexpected ''footerjs'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /home/sorotnus/public_html/pasarfloratama/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/home/sorotnus/...')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\I...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\I...')
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/ResController.php(87): spl_autoload_call('App\\Libraries\\I...')
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(901): App\Controllers\ResController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-08 22:04:38 --> Undefined variable: head
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/template/media.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 8, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('template/media', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(73): view('template/media', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Pasar.php(20): App\Libraries\Init->no_slider('pasar', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Pasar->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasar))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-08 22:04:56 --> Class 'App\Libraries\Init' not found
+#0 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(901): App\Controllers\ResController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 22:06:30 --> Undefined variable: slider
+#0 /home/sorotnus/public_html/pasarfloratama/app/Views/template/media.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/sorotnus/...', 11, Array)
+#1 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(230): include('/home/sorotnus/...')
+#2 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('template/media', Array, true)
+#4 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(73): view('template/media', Array)
+#5 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Pasar.php(20): App\Libraries\Init->no_slider('pasar', Array)
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Pasar->index()
+#7 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasar))
+#8 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-08 22:19:56 --> Invalid file: bplopf.php
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bplopf.php')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('bplopf', Array, true)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('bplopf', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bplopf.php(20): App\Libraries\Init->no_slider('bplopf', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bplopf->index()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bplopf))
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-08 22:20:34 --> Invalid file: bplopf.php
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bplopf.php')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('bplopf', Array, true)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('bplopf', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bplopf.php(20): App\Libraries\Init->no_slider('bplopf', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bplopf->index()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bplopf))
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-08 22:21:09 --> Invalid file: bplopf.php
+#0 /home/sorotnus/public_html/pasarfloratama/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bplopf.php')
+#1 /home/sorotnus/public_html/pasarfloratama/system/Common.php(1271): CodeIgniter\View\View->render('bplopf', Array, true)
+#2 /home/sorotnus/public_html/pasarfloratama/app/Libraries/Init.php(70): view('bplopf', Array)
+#3 /home/sorotnus/public_html/pasarfloratama/app/Controllers/Bpolpf.php(20): App\Libraries\Init->no_slider('bplopf', Array)
+#4 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(928): App\Controllers\Bpolpf->index()
+#5 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpolpf))
+#6 /home/sorotnus/public_html/pasarfloratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sorotnus/public_html/pasarfloratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

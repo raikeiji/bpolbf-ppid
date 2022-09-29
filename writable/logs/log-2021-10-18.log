@@ -1,0 +1,39 @@
+CRITICAL - 2021-10-18 23:55:06 --> Undefined property: App\Libraries\Init::$encript
+#0 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/sorotnus/...', 35, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Init.php(95): App\Libraries\Init->menu()
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(38): App\Libraries\Init->no_slider('pages', Array)
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('1', 'peluang-investa...')
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-18 23:57:29 --> Class 'App\Controllers\Encript' not found
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-18 23:57:52 --> Class 'App\Controllers\Encript' not found
+#0 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-18 23:58:37 --> Invalid characters passed for attempted conversion, these have been ignored
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Invalid charact...', '/home/sorotnus/...', 236, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Encript.php(236): hexdec('%2')
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(32): App\Libraries\Encript->url_decode('364b50543142546...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('6K364b505431425...', 'regulasi.html')
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-18 23:59:19 --> Invalid characters passed for attempted conversion, these have been ignored
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Invalid charact...', '/home/sorotnus/...', 236, Array)
+#1 /home/sorotnus/public_html/floratama/app/Libraries/Encript.php(236): hexdec('%2')
+#2 /home/sorotnus/public_html/floratama/app/Controllers/Home.php(32): App\Libraries\Encript->url_decode('373250543152545...')
+#3 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(928): App\Controllers\Home->pages('723732505431525...', 'peluang-investa...')
+#4 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sorotnus/public_html/floratama/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sorotnus/public_html/floratama/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

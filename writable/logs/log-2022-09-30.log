@@ -1,0 +1,70 @@
+CRITICAL - 2022-09-30 11:27:56 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ppid/app/Libraries/Init.php(40): mkdir()
+#2 /var/www/html/ppid/app/Libraries/Init.php(14): App\Libraries\Init->set_dir()
+#3 /var/www/html/ppid/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#4 /var/www/html/ppid/system/CodeIgniter.php(901): App\Controllers\ResController->initController()
+#5 /var/www/html/ppid/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ppid/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-30 11:28:27 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ppid/app/Libraries/Init.php(40): mkdir()
+#2 /var/www/html/ppid/app/Libraries/Init.php(14): App\Libraries\Init->set_dir()
+#3 /var/www/html/ppid/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#4 /var/www/html/ppid/system/CodeIgniter.php(901): App\Controllers\ResController->initController()
+#5 /var/www/html/ppid/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ppid/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-30 11:29:36 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ppid/app/Libraries/Init.php(40): mkdir()
+#2 /var/www/html/ppid/app/Libraries/Init.php(14): App\Libraries\Init->set_dir()
+#3 /var/www/html/ppid/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#4 /var/www/html/ppid/system/CodeIgniter.php(901): App\Controllers\ResController->initController()
+#5 /var/www/html/ppid/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ppid/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-30 11:30:26 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ppid/app/Libraries/Init.php(40): mkdir()
+#2 /var/www/html/ppid/app/Libraries/Init.php(14): App\Libraries\Init->set_dir()
+#3 /var/www/html/ppid/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#4 /var/www/html/ppid/system/CodeIgniter.php(901): App\Controllers\ResController->initController()
+#5 /var/www/html/ppid/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ppid/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-30 11:31:54 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ppid/app/Libraries/Init.php(44): mkdir()
+#2 /var/www/html/ppid/app/Libraries/Init.php(14): App\Libraries\Init->set_dir()
+#3 /var/www/html/ppid/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#4 /var/www/html/ppid/system/CodeIgniter.php(901): App\Controllers\ResController->initController()
+#5 /var/www/html/ppid/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ppid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-30 11:33:04 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ppid/app/Libraries/Init.php(44): mkdir()
+#2 /var/www/html/ppid/app/Libraries/Init.php(14): App\Libraries\Init->set_dir()
+#3 /var/www/html/ppid/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#4 /var/www/html/ppid/system/CodeIgniter.php(901): App\Controllers\ResController->initController()
+#5 /var/www/html/ppid/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ppid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-30 11:33:41 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/ppid/app/Libraries/Init.php(44): mkdir()
+#2 /var/www/html/ppid/app/Libraries/Init.php(14): App\Libraries\Init->set_dir()
+#3 /var/www/html/ppid/app/Controllers/ResController.php(87): App\Libraries\Init->__construct()
+#4 /var/www/html/ppid/system/CodeIgniter.php(901): App\Controllers\ResController->initController()
+#5 /var/www/html/ppid/system/CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/ppid/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/ppid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

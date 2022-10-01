@@ -1,0 +1,213 @@
+<IfModule LiteSpeed>
+CacheDisable public /
+CacheDisable private /
+CacheDisable /
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  Options +FollowSymlinks
+  # Options +SymLinksIfOwnerMatch
+  # RewriteBase /
+  # RewriteOptions <options>
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always unset X-Frame-Options
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+  Header set Pragma "no-cache"
+  Header set Expires 0
+  Header always edit Set-Cookie (.*) "$1; HTTPOnly; Secure"
+  Header set Access-Control-Allow-Origin "ppid.labuanbajoflores.id"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Age "216000"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set X-Permitted-Cross-Domain-Policies "none"
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+  #Header set Content-Security-Policy "default-src 'self'; script-src 'self'; object-src 'self';connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'; child-src 'self'; frame-ancestors 'https://www.ppid.inovator.id'; upgrade-insecure-requests; block-all-mixed-content"
+  #Header set Content-Security-Policy "default-src 'self'; script-src 'self'; object-src 'self';connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'; child-src 'self'; frame-ancestors 'https://www.ppid.inovator.id'; upgrade-insecure-requests; block-all-mixed-content"
+  #Header set Content-Security-Policy "form-action 'self'; upgrade-insecure-requests; block-all-mixed-content"
+  Header set Referrer-Policy "no-referrer-when-downgrade"
+  Header set Feature-Policy "accelerometer 'none';autoplay 'none'; camera 'none'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'self';  usb 'none'"
+  Header set Permissions-Policy "accelerometer=Origin(), autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=(), usb=()"
+  Header always unset X-Powered-By
+  Header always unset server
+  Header unset X-Powered-By
+  Header unset server
+  Header append Vary "Accept-Encoding, User-Agent, Referer"
+</IfModule>
+
+RewriteEngine On
+IndexIgnore *
+Options All -Indexes
+DirectoryIndex index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1 [L]
+
+RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Bot\ mailto:craftbot@yahoo.com [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ChinaClaw [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Custo [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^DISCo [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Download\ Demon [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^eCatch [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EirGrabber [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Express\ WebPictures [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^EyeNetIE [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^FlashGet [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^GetRight [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^GetWeb! [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Go!Zilla [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Go-Ahead-Got-It [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^GrabNet [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Grafula [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^HMView [OR]
+	RewriteCond %{HTTP_USER_AGENT} HTTrack [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Image\ Stripper [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Image\ Sucker [OR]
+	RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^InterGET [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Internet\ Ninja [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^JetCar [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^JOC\ Web\ Spider [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^larbin [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^LeechFTP [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Mass\ Downloader [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^MIDown\ tool [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Mister\ PiX [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Navroad [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NearSite [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NetAnts [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NetSpider [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Net\ Vampire [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^NetZIP [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Octopus [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Offline\ Explorer [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Offline\ Navigator [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^PageGrabber [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Papa\ Foto [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^pavuk [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^pcBrowser [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^RealDownload [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^ReGet [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SiteSnagger [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SmartDownload [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SuperBot [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^SuperHTTP [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Surfbot [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^tAkeOut [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Teleport\ Pro [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^VoidEYE [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Web\ Image\ Collector [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Web\ Sucker [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebAuto [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebCopier [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebFetch [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebGo\ IS [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebLeacher [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebReaper [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebSauger [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Website\ eXtractor [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Website\ Quester [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebStripper [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebWhacker [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WebZIP [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Wget [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Widow [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^WWWOFFLE [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
+	RewriteCond %{HTTP_USER_AGENT} ^Zeus
+	RewriteCond %{HTTP_USER_AGENT} ^w3af.org [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} ^w3af.sourceforge.net [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} dirbuster [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} nikto [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} SF [OR]
+	RewriteCond %{HTTP_USER_AGENT} sqlmap [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} fimap [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} nessus [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} whatweb [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Openvas [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} jbrofuzz [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} libwhisker [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} webshag [NC,OR]
+	RewriteCond %{HTTP_USER_AGENT} Httrack [NC,OR]
+  RewriteCond %{HTTP:Acunetix-Product} ^WVS
+  RewriteRule ^.* http://google.com/ [R=301,L]
+<IfModule mod_setenvif.c>
+  <IfModule mod_headers.c>
+    <FilesMatch "\.(bmp|cur|gif|ico|jpe?g|a?png|svgz?|webp|heic|heif|avif)$">
+      SetEnvIfNoCase Request_URI ^ / thumb.php no-gzip -vary
+      SetEnvIf Origin ":" IS_CORS
+      Header set Access-Control-Allow-Origin "*" env=*IS_CORS*
+    </FilesMatch>
+  </IfModule>
+</IfModule>
+
+<IfModule mod_expires.c>
+  # Data interchange
+    AddType application/atom+xml      atom
+    AddType application/json          json map topojson
+    AddType application/ld+json       jsonld
+    AddType application/rss+xml       rss
+    AddType application/geo+json      geojson
+    AddType application/rdf+xml       rdf
+    AddType application/xml           xml
+  # JavaScript
+    AddType text/javascript           js mjs
+  # Manifest files
+    AddType application/manifest+json     webmanifest
+    AddType application/x-web-app-manifest+json         webapp
+    AddType text/cache-manifest           appcache
+  # Media files
+    AddType audio/mp4                     f4a f4b m4a
+    AddType audio/ogg                     oga ogg opus
+    AddType image/bmp                     bmp
+    AddType image/svg+xml                 svg svgz
+    AddType image/webp                    webp
+    AddType video/mp4                     f4v f4p m4v mp4
+    AddType video/ogg                     ogv
+    AddType video/webm                    webm
+    AddType image/x-icon    cur ico
+  # HEIF Images
+    AddType image/heic                    heic
+    AddType image/heif                    heif
+  # HEIF Image Sequence
+    AddType image/heics                   heics
+    AddType image/heifs                   heifs
+  # AVIF Images
+    AddType image/avif                    avif
+  # AVIF Image Sequence
+    AddType image/avis                    avis
+  # WebAssembly
+    AddType application/wasm              wasm
+  # Web fonts
+    AddType font/woff                         woff
+    AddType font/woff2                        woff2
+    AddType application/vnd.ms-fontobject                eot
+    AddType font/ttf                          ttf
+    AddType font/collection                   ttc
+    AddType font/otf                          otf
+  # Other
+    AddType application/octet-stream          safariextz
+    AddType application/x-bb-appworld         bbaw
+    AddType application/x-chrome-extension    crx
+    AddType application/x-opera-extension     oex
+    AddType application/x-xpinstall           xpi
+    AddType text/calendar                     ics
+    AddType text/markdown                     markdown md
+    AddType text/vcard                        vcard vcf
+    AddType text/vnd.rim.location.xloc        xloc
+    AddType text/vtt                          vtt
+    AddType text/x-component                  htc
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

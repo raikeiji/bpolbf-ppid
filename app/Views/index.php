@@ -175,9 +175,9 @@
         </div>
       </section>
 
-      <section class="no-padding">
+      <section class="no-padding embed_video">
         <div class="section">
-          <iframe
+          <!-- <iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/jag7XRbq6zA"
@@ -185,11 +185,15 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+          ></iframe> -->
+          <iframe width="100%" height="415" src="https://www.youtube.com/embed/jag7XRbq6zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
       <script type="text/javascript">
       $(document).ready(function(){
+        setTimeout(function(){
+          $('.embed_video .section div').removeClass('embed-responsive-16by4');
+        },2000)
         $('[name="kirim"]').on('click',function(x){
           $("#form1").submit();
         })

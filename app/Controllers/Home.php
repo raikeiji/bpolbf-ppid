@@ -21,8 +21,28 @@ class Home extends ResController
 		];
 		$this->init->generate('index',$data);
 	}
-	public function sve(){
 
+	public function filter_image($file=''){
+        $info = strtolower(mime_content_type($file));
+        if($info === 'image/jpeg' ||
+            $info === 'image/png' ||
+            $info === 'image/gif' ||
+            $info === 'image/svg+xml' ||
+            $info === 'image/tiff' ||
+            $info === 'image/bmp' ||
+            $info === 'image/pjpeg'){
+            return true;
+        }else{
+            if(file_exists($file)){
+              unlink($file);
+            }
+            return false;
+        }
+  }
+
+	public function sve(){
+			$tmp=@$_FILES[$value->kode_syarat]['tmp_name'];
+			if (!empty($tmp) && $this->filter_image($tmp)) {
 		// var_dump($_POST['cara_beri'][1]);exit;
 				$mail = \Config\Services::email();
 				$emails ='joko.uedan@gmail.com';
@@ -36,111 +56,111 @@ class Home extends ResController
 				$mail->setTo($emails);
 				$mail->setSubject('Permintaan Informasi');
 				$body='<table style="border-collapse: collapse; width: 100%; height: 270px;" border="0">
-<tbody>
-<tr style="height: 18px;">
-<td style="width: 50%; height: 18px;" colspan="2">Nama Sesuai Ktp</td>
-<td style="width: 50%; height: 18px;" colspan="2">Alamat Email</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
-<td style="width: 41.9591%; height: 18px;">'.$_POST["nama"].'</td>
-<td style="width: 9.01559%; height: 18px;">&nbsp;</td>
-<td style="width: 40.9844%; height: 18px;">'.$_POST["email"].'</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 50%; height: 18px;" colspan="2">Kontak</td>
-<td style="width: 50%; height: 18px;" colspan="2">NIK</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
-<td style="width: 41.9591%; height: 18px;">'.$_POST["telp"].'</td>
-<td style="width: 9.01559%; height: 18px;">&nbsp;</td>
-<td style="width: 40.9844%; height: 18px;">'.$_POST["nik"].'</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 50%; height: 18px;" colspan="4">Alamat</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
-<td style="width: 41.9591%; height: 18px;" colspan="3">'.$_POST["alamat"].'</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 50%; height: 18px;" colspan="4">Permintaan Informasi</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
-<td style="width: 41.9591%; height: 18px;" colspan="3">'.$_POST["info_req"].'</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 50%; height: 18px;" colspan="4">Tujuan Informasi</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
-<td style="width: 41.9591%; height: 18px;" colspan="3">'.$_POST["info_tujuan"].'</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 50%; height: 18px;" colspan="2">Cara Mendapatkan</td>
-<td style="width: 50%; height: 18px;" colspan="2">Cara memberikan</td>
-</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_dapat"][0])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][0].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
-$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_beri"][0])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][0].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
-$body.='</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_dapat"][1])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][1].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
-$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_beri"][1])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][1].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
+				<tbody>
+				<tr style="height: 18px;">
+				<td style="width: 50%; height: 18px;" colspan="2">Nama Sesuai Ktp</td>
+				<td style="width: 50%; height: 18px;" colspan="2">Alamat Email</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
+				<td style="width: 41.9591%; height: 18px;">'.$_POST["nama"].'</td>
+				<td style="width: 9.01559%; height: 18px;">&nbsp;</td>
+				<td style="width: 40.9844%; height: 18px;">'.$_POST["email"].'</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 50%; height: 18px;" colspan="2">Kontak</td>
+				<td style="width: 50%; height: 18px;" colspan="2">NIK</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
+				<td style="width: 41.9591%; height: 18px;">'.$_POST["telp"].'</td>
+				<td style="width: 9.01559%; height: 18px;">&nbsp;</td>
+				<td style="width: 40.9844%; height: 18px;">'.$_POST["nik"].'</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 50%; height: 18px;" colspan="4">Alamat</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
+				<td style="width: 41.9591%; height: 18px;" colspan="3">'.$_POST["alamat"].'</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 50%; height: 18px;" colspan="4">Permintaan Informasi</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
+				<td style="width: 41.9591%; height: 18px;" colspan="3">'.$_POST["info_req"].'</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 50%; height: 18px;" colspan="4">Tujuan Informasi</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>
+				<td style="width: 41.9591%; height: 18px;" colspan="3">'.$_POST["info_tujuan"].'</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 50%; height: 18px;" colspan="2">Cara Mendapatkan</td>
+				<td style="width: 50%; height: 18px;" colspan="2">Cara memberikan</td>
+				</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_dapat"][0])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][0].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
+				$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_beri"][0])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][0].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
+				$body.='</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_dapat"][1])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][1].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
+				$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_beri"][1])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][1].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
 
-$body.='</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_dapat"][2])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][2].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
-$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_beri"][2])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][2].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
-$body.='</tr>
-<tr style="height: 18px;">
-<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_dapat"][3])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][3].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
-$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
-if(isset($_POST["cara_beri"][3])){
-	$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][3].'</td>';
-}else{
-	$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
-}
-$body.='</tr>
-</tbody>
-</table>';
+				$body.='</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_dapat"][2])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][2].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
+				$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_beri"][2])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][2].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
+				$body.='</tr>
+				<tr style="height: 18px;">
+				<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_dapat"][3])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_dapat"][3].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
+				$body.='<td style="width: 9.01559%; height: 18px;">&nbsp;</td>';
+				if(isset($_POST["cara_beri"][3])){
+					$body.='<td style="width: 41.9591%; height: 18px;">'.$_POST["cara_beri"][3].'</td>';
+				}else{
+					$body.='<td style="width: 8.04094%; height: 18px;">&nbsp;</td>';
+				}
+				$body.='</tr>
+				</tbody>
+				</table>';
 				// $files = $_FILES['file']['tmp_name'];
 				// $upload=$this->init->upload('gambar','image',$_POST["nik"],'berita','insert');
 				// $pesan=json_decode($upload);
@@ -154,7 +174,17 @@ $body.='</tr>
 				$mail->attach('writable/uploads/2021/11/'. $_FILES["file"]['name']);
 				$mail->setMessage($body);
 				$mail->send();
-
+				$info=[
+					'status'=>true,
+					'msg'=>'Terimakasih anda sudah mengirimkan permintaan informasi kepada kami'
+				];
+			}else{
+				$info=[
+					'status'=>false,
+					'msg'=>'Lampiran yang anda masukan tidak sesuai dengan format lampiran yang benar'
+				];
+			}
+			echo json_encode($info);
 	}
 	public function get_header(){
 		$query=$this->db->table('header_link')
